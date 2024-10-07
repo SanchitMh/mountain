@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,Helvetica,sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* ..........Header.......... */
+:root{
+    --bgcolor:#0c3c60;
+    --bgcolor2:#ecf1f5;
+}
+header{
+    position: sticky;
+    top: 0px;
+    background-color: var(--bgcolor);
+    z-index: 100;
+}
+#navbar{
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items: center;
+}
+.left{
+    padding: 25px;
+    margin-left: 60px;
+}
+.left img{
+    display: none;
+}
+.left h3{
+    font-size: 20px;
+    color: white;
+}
+
+.middle{
+    position: absolute;
+    right: 250px;
+}
+.middle ul{
+    display: flex;
+}
+.middle ul li{
+    list-style: none;
+}
+.middle ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+}
+.middle ul li a:hover{
+    transition-duration: 0.3s;
+    color: #5f9ed2;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 100px;
+}
+.right img{
+    background-color: white;
+    border-radius: 50%;
+}
+.right a{
+    padding: 0px 20px;
+   color: white;
+   text-decoration: none;
+}
+.right a:hover{
+    transition-duration: 0.4s;
+    color: #5f9ed2;
+}
+
+/* ..........background.......... */
+#background{
+    background: url(background.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.c-items{
+    position: absolute;
+    bottom: 0px;
+    left: 20%;
+    right:20%;
+}
+.container{
+    padding: 20px 50px;
+    color: black;
+    background-color:var(--bgcolor2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container>:first-child{
+    font-size: 26px;
+    text-align: center;
+    margin: 30px 0px;
+}
+.container>:nth-child(2){
+    font-size: 60px;
+    text-align: center;
+}
+.btn button{
+    margin-top: 25px;
+    border: 2px solid var(--bgcolor);
+    background-color: white;
+    color: var(--bgcolor);
+    font-weight: bold;
+    padding: 20px 45px;
+    font-size: 1rem;
+    margin-bottom: 0px;
+    border-radius: 15px;
+}
+.btn button:hover{
+    color: white;
+    background-color: var(--bgcolor);
+    transition-duration: 1s;
+}
+
+/* ..........SPC......... */
+#spc{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 100px 0px;
+    justify-items: center;
+    background-color: var(--bgcolor2);
+}
+.spc-items{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 15px;
+    background-color: rgb(248, 245, 245);
+}
+.spc-items h1{
+    letter-spacing: 2px;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: normal;
+}
+.spc-items p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 40px;
+}
+.spc-btn{
+    margin-top: 20px;
+    border: 2px solid var(--bgcolor);
+    background-color: rgb(254, 254, 254);
+    color: var(--bgcolor);
+    font-weight: bold;
+    padding: 15px 45px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.spc-btn:hover{
+    color: white;
+    background-color: var(--bgcolor);
+    transition-duration: .5s;
+}
+
+/* ..........About Us.......... */
+#aboutus{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+#aboutus::before{
+    content: "";
+    background: url(background2.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+    z-index: -1;
+}
+.aboutus-items{
+    text-align: center;
+    padding: 100px;
+}
+.aboutus-items h1{
+    font-weight: normal;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-bottom: 25px;
+}
+.aboutus-items p{
+    padding: 25px 150px;
+    font-size: 17px;
+    line-height:25px;
+}
+.aboutus-items button{
+    margin-top: 20px;
+    border: 2px solid var(--bgcolor);
+    background-color: e6e1e1;
+    color: var(--bgcolor);
+    font-weight: bold;
+    padding: 15px 45px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.aboutus-items button:hover{
+    color: white;
+    background-color: var(--bgcolor);
+    transition-duration: .5s;
+}
+
+/* ..........Our Clints.......... */
+#ourclints{
+    text-align: center;
+    padding: 100px 0px;
+}
+#ourclints h1{
+    font-weight: normal;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-bottom: 25px;
+}
+.clintcontainer{
+    padding: 25px 0px;
+}
+.clintcontainer img{
+    opacity: .8;
+    width: 100px;
+    margin: 35px 90px;
+}

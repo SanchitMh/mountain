@@ -1,0 +1,66 @@
+#background{
+    height: 350px;
+}
+header{
+    height: 160px;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.left{
+    position: relative;
+    left: 0px;
+}
+.middle{
+    position: relative;
+    right: 0px;
+}
+.right{
+    position: relative;
+    top:25px;
+    right: 0px;
+    margin: auto;
+}
+.container{
+    padding: 3px;
+}
+.container>:first-child {
+    font-size: 15px;
+    margin: 10px 40px;
+}
+.container>:nth-child(2) {
+    font-size: 25px;
+}
+.btn button {
+    margin-top: 15px;
+    padding: 9px 10px;
+    font-size: .8rem;
+    margin-bottom: 0px;
+}
+#spc{
+    padding: 30px 0px;
+}
+.spc-items p{
+    padding: 0px 20px;
+}
+.spc-items h1 {
+    letter-spacing: 1px;
+    padding: 10px;
+    font-size: 35px;
+}
+.spc-items p {
+    font-size: 13px;
+    padding: 0px 15px;
+}
+.spc-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: .8rem;
+}
+.aboutus-items p {
+    padding: 20px 50px;
+    font-size: 15px;
+    line-height: 20px;
+}

@@ -1,0 +1,97 @@
+#background{
+    height: 150px;
+}
+header{
+    display: flex;
+    align-items:center;
+    height: 50px;
+}
+.left {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.left img{
+    width: 30px;
+    padding-left: 20px;
+    display:block;
+}
+.left img:hover{
+    transform: scale(1.2);
+}
+.left h3 {
+    padding: 14px 0px;
+    font-size: 17px;
+}
+.middle{
+    display: none;
+}
+.right{
+    display: none;
+}
+
+.contaner{
+    padding: 0px;
+}
+.container>:first-child {
+    font-size: 10px;
+    margin: 10px 0px;
+}
+.container>:nth-child(2) {
+    font-size: 15px;
+}
+.btn button {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 4px 5px;
+    font-size: .5rem;
+}
+
+ #spc{
+    display: flex;
+    flex-direction: column;
+}
+.spc-items{
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 15px;
+    
+}
+.spc-items p{
+    padding: 10px 0px;
+}
+.aboutus-items {
+    padding: 45px 15px;
+}
+.aboutus-items p {
+    padding: 20px 0px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.aboutus-items h1 {
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+.aboutus-items button{
+    font-size: 15px;
+    padding: 10px 20px;
+}
+#ourclints{
+    padding: 50px 0px;
+}
+#ourclints h1{
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-bottom: 0px;
+}
+.clintcontainer img {
+    opacity: .8;
+    width: 80px;
+    margin: 15px 50px;
+}
+.clintcontainer{
+    padding-top: 15px;
+}
